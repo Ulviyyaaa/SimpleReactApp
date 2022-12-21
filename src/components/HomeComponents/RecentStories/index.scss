@@ -1,0 +1,107 @@
+.recentStories {
+    background-image: url("https://rog.asus.com/dist/img/rog_bg_pattern.jpg");
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+    }
+
+    .cards {
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+
+        .card {
+            border: none;
+            position: relative;
+
+            .cards_img {
+                width: 460px;
+                height: 450px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .cardText {
+                position: absolute;
+                bottom: 10%;
+                left: 3%;
+                color: white;
+            }
+        }
+
+        img:hover {
+            transform: scale(1.4);
+            transition: 1s;
+        }
+
+        .cards_img {
+            overflow: hidden;
+            background-position: center;
+        }
+    }
+
+    .cardLineTwo {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+
+        .card {
+            border: none;
+            position: relative;
+
+            .cards_img {
+                width: 700px;
+                height: 450px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .cardText {
+                position: absolute;
+                bottom: 10%;
+                left: 3%;
+                color: white;
+            }
+        }
+
+        img:hover {
+            transform: scale(1.4);
+            transition: 1s;
+        }
+
+        .cards_img {
+            overflow: hidden;
+            background-position: center;
+        }
+
+    }
+
+    .learn {
+        color: red;
+        font-weight: bold;
+
+        p:hover{
+            color: rgb(105, 3, 3);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.mainImg {
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/FDFFE426-0A29-40D5-8E26-C838EB26CA8F");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: 52.6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    // .joinImg{
+    //     position: relative;
+    // img{
+    //     width: 100%;
+    // }
+    // }
+    .mainImgtext {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+
+        h2 {
+            color: white;
+            font-size: 30px;
+        }
+
+        p {
+            color: white;
+            display: flex;
+        }
+    }
+}

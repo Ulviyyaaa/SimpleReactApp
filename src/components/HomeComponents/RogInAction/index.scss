@@ -1,0 +1,47 @@
+.rogInAction{
+    height: 70vh;
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+
+    .mainGameCard{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .gameImg{
+            width: 30%;
+            height: 200px;
+            img{
+                width: 100%;
+                height: 235px;
+            }
+            #text{
+                color: red;
+            }
+            p{
+                color: black;
+                font-weight: bold;
+            }
+            .textHover:hover{
+                color: red;
+            }
+        }
+    }
+    // .learn {
+    //     color: red;
+    //     font-weight: bold;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-evenly;
+    //     align-items: center;
+
+    //     p:hover{
+    //         color: rgb(105, 3, 3);
+    //     }
+    // }
+}
